@@ -6,8 +6,12 @@ int main()
 	scanf("%d",&birthyear);
 	
 	age=2023-birthyear;
-	printf("your age is: %d",age);
-	
+	printf("your age is: %d\n",age);
+
+	if(age < 18) 
+	{
+		printf("not available for driving license");
+	}
 	return(0);
 	
 	
