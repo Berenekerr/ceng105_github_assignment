@@ -16,6 +16,10 @@ int main()
 	{
 		printf("available for driving license");
 	}
+	else if(age==18)
+	{
+		printf("go to driving course");
+	}
 	return(0);
 	
 	
